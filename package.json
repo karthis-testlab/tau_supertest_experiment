@@ -1,0 +1,19 @@
+{
+  "name": "tau_experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'tests/firstExpressAppTest.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.0",
+    "supertest": "^6.3.3"
+  }
+}
